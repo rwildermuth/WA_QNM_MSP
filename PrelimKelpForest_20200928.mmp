@@ -1,0 +1,1019 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mentalmodeler >
+<info >
+<name ><![CDATA[Model]]></name>
+<author ><![CDATA[]]></author>
+<description ><![CDATA[]]></description>
+<version ><![CDATA[]]></version>
+<date ><![CDATA[]]></date>
+</info>
+<groupNames >
+</groupNames>
+<concepts >
+<concept >
+<id ><![CDATA[0]]></id>
+<name ><![CDATA[BenthicInvertebrates]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[]]></group>
+<x ><![CDATA[346]]></x>
+<y ><![CDATA[573]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+<relationships >
+<relationship >
+<id ><![CDATA[0]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+<name ><![CDATA[BenthicInvertebrates]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[1]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[1]]></influence>
+<name ><![CDATA[BlackRockfishLingcod]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[9]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[1]]></influence>
+<name ><![CDATA[MidTrophicFishes]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[15]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[1]]></influence>
+<name ><![CDATA[SeaOtters]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[16]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[1]]></influence>
+<name ><![CDATA[Seastars]]></name>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[1]]></id>
+<name ><![CDATA[BlackRockfishLingcod]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[]]></group>
+<x ><![CDATA[32]]></x>
+<y ><![CDATA[572]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+<relationships >
+<relationship >
+<id ><![CDATA[1]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+<name ><![CDATA[BlackRockfishLingcod]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[13]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[1]]></influence>
+<name ><![CDATA[RecreationalFishing]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[22]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[1]]></influence>
+<name ><![CDATA[YoYFishes]]></name>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[2]]></id>
+<name ><![CDATA[CurrentsEddiesPlumes]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[]]></group>
+<x ><![CDATA[13]]></x>
+<y ><![CDATA[271]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+<relationships >
+<relationship >
+<id ><![CDATA[2]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+<name ><![CDATA[CurrentsEddiesPlumes]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[23]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[1]]></influence>
+<name ><![CDATA[Zooplankton]]></name>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[3]]></id>
+<name ><![CDATA[Detritus]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[]]></group>
+<x ><![CDATA[960]]></x>
+<y ><![CDATA[355]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+<relationships >
+<relationship >
+<id ><![CDATA[0]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[1]]></influence>
+<name ><![CDATA[BenthicInvertebrates]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[3]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+<name ><![CDATA[Detritus]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[12]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[1]]></influence>
+<name ><![CDATA[PhytoplanktonBacteria]]></name>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[4]]></id>
+<name ><![CDATA[DO]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[]]></group>
+<x ><![CDATA[299]]></x>
+<y ><![CDATA[230]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+<relationships >
+<relationship >
+<id ><![CDATA[4]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+<name ><![CDATA[DO]]></name>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[5]]></id>
+<name ><![CDATA[ENSO]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[]]></group>
+<x ><![CDATA[794]]></x>
+<y ><![CDATA[61]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+<relationships >
+<relationship >
+<id ><![CDATA[5]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+<name ><![CDATA[ENSO]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[8]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[1]]></influence>
+<name ><![CDATA[LocalWeather]]></name>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[6]]></id>
+<name ><![CDATA[ForageFishes]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[]]></group>
+<x ><![CDATA[12]]></x>
+<y ><![CDATA[345]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+<relationships >
+<relationship >
+<id ><![CDATA[1]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[1]]></influence>
+<name ><![CDATA[BlackRockfishLingcod]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[6]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+<name ><![CDATA[ForageFishes]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[9]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[1]]></influence>
+<name ><![CDATA[MidTrophicFishes]]></name>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[7]]></id>
+<name ><![CDATA[Kelp]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[]]></group>
+<x ><![CDATA[646]]></x>
+<y ><![CDATA[415]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+<relationships >
+<relationship >
+<id ><![CDATA[0]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[1]]></influence>
+<name ><![CDATA[BenthicInvertebrates]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[1]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[1]]></influence>
+<name ><![CDATA[BlackRockfishLingcod]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[3]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[1]]></influence>
+<name ><![CDATA[Detritus]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[7]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+<name ><![CDATA[Kelp]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[9]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[1]]></influence>
+<name ><![CDATA[MidTrophicFishes]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[15]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[1]]></influence>
+<name ><![CDATA[SeaOtters]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[18]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[1]]></influence>
+<name ><![CDATA[SeaUrchins]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[22]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[1]]></influence>
+<name ><![CDATA[YoYFishes]]></name>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[8]]></id>
+<name ><![CDATA[LocalWeather]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[]]></group>
+<x ><![CDATA[1007]]></x>
+<y ><![CDATA[174]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+<relationships >
+<relationship >
+<id ><![CDATA[8]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+<name ><![CDATA[LocalWeather]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[7]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[0]]></influence>
+<name ><![CDATA[]]></name>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[9]]></id>
+<name ><![CDATA[MidTrophicFishes]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[]]></group>
+<x ><![CDATA[197]]></x>
+<y ><![CDATA[413]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+<relationships >
+<relationship >
+<id ><![CDATA[1]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[1]]></influence>
+<name ><![CDATA[BlackRockfishLingcod]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[9]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+<name ><![CDATA[MidTrophicFishes]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[13]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[1]]></influence>
+<name ><![CDATA[RecreationalFishing]]></name>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[10]]></id>
+<name ><![CDATA[Nutrients]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[]]></group>
+<x ><![CDATA[678]]></x>
+<y ><![CDATA[141]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+<relationships >
+<relationship >
+<id ><![CDATA[10]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+<name ><![CDATA[Nutrients]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[12]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[1]]></influence>
+<name ><![CDATA[PhytoplanktonBacteria]]></name>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[11]]></id>
+<name ><![CDATA[OA]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[]]></group>
+<x ><![CDATA[521]]></x>
+<y ><![CDATA[727]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+<relationships >
+<relationship >
+<id ><![CDATA[0]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+<name ><![CDATA[BenthicInvertebrates]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[11]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+<name ><![CDATA[OA]]></name>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[12]]></id>
+<name ><![CDATA[PhytoplanktonBacteria]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[]]></group>
+<x ><![CDATA[530]]></x>
+<y ><![CDATA[304]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+<relationships >
+<relationship >
+<id ><![CDATA[12]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+<name ><![CDATA[PhytoplanktonBacteria]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[23]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[1]]></influence>
+<name ><![CDATA[Zooplankton]]></name>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[13]]></id>
+<name ><![CDATA[RecreationalFishing]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[]]></group>
+<x ><![CDATA[210]]></x>
+<y ><![CDATA[688]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+<relationships >
+<relationship >
+<id ><![CDATA[1]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+<name ><![CDATA[BlackRockfishLingcod]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[9]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+<name ><![CDATA[MidTrophicFishes]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[13]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+<name ><![CDATA[RecreationalFishing]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[18]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+<name ><![CDATA[SeaUrchins]]></name>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[14]]></id>
+<name ><![CDATA[RockyReef]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[]]></group>
+<x ><![CDATA[857]]></x>
+<y ><![CDATA[748]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+<relationships >
+<relationship >
+<id ><![CDATA[14]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+<name ><![CDATA[RockyReef]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[16]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[1]]></influence>
+<name ><![CDATA[Seastars]]></name>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[15]]></id>
+<name ><![CDATA[SeaOtters]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[]]></group>
+<x ><![CDATA[619]]></x>
+<y ><![CDATA[534]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+<relationships >
+<relationship >
+<id ><![CDATA[0]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+<name ><![CDATA[BenthicInvertebrates]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[15]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+<name ><![CDATA[SeaOtters]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[16]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+<name ><![CDATA[Seastars]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[18]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+<name ><![CDATA[SeaUrchins]]></name>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[16]]></id>
+<name ><![CDATA[Seastars]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[]]></group>
+<x ><![CDATA[793]]></x>
+<y ><![CDATA[663]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+<relationships >
+<relationship >
+<id ><![CDATA[0]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+<name ><![CDATA[BenthicInvertebrates]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[15]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[1]]></influence>
+<name ><![CDATA[SeaOtters]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[16]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+<name ><![CDATA[Seastars]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[18]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+<name ><![CDATA[SeaUrchins]]></name>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[17]]></id>
+<name ><![CDATA[SeaSurfaceTemp]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[]]></group>
+<x ><![CDATA[794]]></x>
+<y ><![CDATA[191]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+<relationships >
+<relationship >
+<id ><![CDATA[7]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+<name ><![CDATA[Kelp]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[17]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+<name ><![CDATA[SeaSurfaceTemp]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[23]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+<name ><![CDATA[Zooplankton]]></name>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[18]]></id>
+<name ><![CDATA[SeaUrchins]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[]]></group>
+<x ><![CDATA[882]]></x>
+<y ><![CDATA[496]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+<relationships >
+<relationship >
+<id ><![CDATA[7]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+<name ><![CDATA[Kelp]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[13]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[1]]></influence>
+<name ><![CDATA[RecreationalFishing]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[15]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[1]]></influence>
+<name ><![CDATA[SeaOtters]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[16]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[1]]></influence>
+<name ><![CDATA[Seastars]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[18]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+<name ><![CDATA[SeaUrchins]]></name>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[19]]></id>
+<name ><![CDATA[Sedimentation]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[]]></group>
+<x ><![CDATA[958]]></x>
+<y ><![CDATA[428]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+<relationships >
+<relationship >
+<id ><![CDATA[7]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+<name ><![CDATA[Kelp]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[19]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+<name ><![CDATA[Sedimentation]]></name>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[20]]></id>
+<name ><![CDATA[SourceWaters]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[]]></group>
+<x ><![CDATA[77]]></x>
+<y ><![CDATA[165]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+<relationships >
+<relationship >
+<id ><![CDATA[20]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+<name ><![CDATA[SourceWaters]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[23]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[1]]></influence>
+<name ><![CDATA[Zooplankton]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[4]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[0]]></influence>
+<name ><![CDATA[]]></name>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[21]]></id>
+<name ><![CDATA[Upwelling]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[]]></group>
+<x ><![CDATA[449]]></x>
+<y ><![CDATA[157]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+<relationships >
+<relationship >
+<id ><![CDATA[12]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[1]]></influence>
+<name ><![CDATA[PhytoplanktonBacteria]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[21]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+<name ><![CDATA[Upwelling]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[4]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[0]]></confidence>
+<influence ><![CDATA[0]]></influence>
+<name ><![CDATA[]]></name>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[22]]></id>
+<name ><![CDATA[YoYFishes]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[]]></group>
+<x ><![CDATA[422]]></x>
+<y ><![CDATA[375]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+<relationships >
+<relationship >
+<id ><![CDATA[1]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[1]]></influence>
+<name ><![CDATA[BlackRockfishLingcod]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[22]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+<name ><![CDATA[YoYFishes]]></name>
+</relationship>
+</relationships>
+</concept>
+<concept >
+<id ><![CDATA[23]]></id>
+<name ><![CDATA[Zooplankton]]></name>
+<notes ><![CDATA[]]></notes>
+<units ><![CDATA[]]></units>
+<group ><![CDATA[]]></group>
+<x ><![CDATA[268]]></x>
+<y ><![CDATA[307]]></y>
+<preferredState ><![CDATA[0]]></preferredState>
+<actualState ><![CDATA[0]]></actualState>
+<relationships >
+<relationship >
+<id ><![CDATA[6]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[1]]></influence>
+<name ><![CDATA[ForageFishes]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[9]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[1]]></influence>
+<name ><![CDATA[MidTrophicFishes]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[22]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[1]]></influence>
+<name ><![CDATA[YoYFishes]]></name>
+</relationship>
+<relationship >
+<id ><![CDATA[23]]></id>
+<notes ><![CDATA[]]></notes>
+<confidence ><![CDATA[]]></confidence>
+<influence ><![CDATA[-1]]></influence>
+<name ><![CDATA[Zooplankton]]></name>
+</relationship>
+</relationships>
+</concept>
+</concepts>
+<scenarios >
+<scenario >
+<name ><![CDATA[Scenario]]></name>
+<concepts >
+<concept >
+<selected ><![CDATA[true]]></selected>
+<influence ><![CDATA[]]></influence>
+<id ><![CDATA[0]]></id>
+<name ><![CDATA[BenthicInvertebrates]]></name>
+<preferredState ><![CDATA[0]]></preferredState>
+</concept>
+<concept >
+<selected ><![CDATA[true]]></selected>
+<influence ><![CDATA[]]></influence>
+<id ><![CDATA[1]]></id>
+<name ><![CDATA[BlackRockfishLingcod]]></name>
+<preferredState ><![CDATA[0]]></preferredState>
+</concept>
+<concept >
+<selected ><![CDATA[true]]></selected>
+<influence ><![CDATA[]]></influence>
+<id ><![CDATA[2]]></id>
+<name ><![CDATA[CurrentsEddiesPlumes]]></name>
+<preferredState ><![CDATA[0]]></preferredState>
+</concept>
+<concept >
+<selected ><![CDATA[true]]></selected>
+<influence ><![CDATA[]]></influence>
+<id ><![CDATA[3]]></id>
+<name ><![CDATA[Detritus]]></name>
+<preferredState ><![CDATA[0]]></preferredState>
+</concept>
+<concept >
+<selected ><![CDATA[true]]></selected>
+<influence ><![CDATA[]]></influence>
+<id ><![CDATA[4]]></id>
+<name ><![CDATA[DO]]></name>
+<preferredState ><![CDATA[0]]></preferredState>
+</concept>
+<concept >
+<selected ><![CDATA[true]]></selected>
+<influence ><![CDATA[]]></influence>
+<id ><![CDATA[5]]></id>
+<name ><![CDATA[ENSO]]></name>
+<preferredState ><![CDATA[0]]></preferredState>
+</concept>
+<concept >
+<selected ><![CDATA[true]]></selected>
+<influence ><![CDATA[]]></influence>
+<id ><![CDATA[6]]></id>
+<name ><![CDATA[ForageFishes]]></name>
+<preferredState ><![CDATA[0]]></preferredState>
+</concept>
+<concept >
+<selected ><![CDATA[true]]></selected>
+<influence ><![CDATA[]]></influence>
+<id ><![CDATA[7]]></id>
+<name ><![CDATA[Kelp]]></name>
+<preferredState ><![CDATA[0]]></preferredState>
+</concept>
+<concept >
+<selected ><![CDATA[true]]></selected>
+<influence ><![CDATA[]]></influence>
+<id ><![CDATA[8]]></id>
+<name ><![CDATA[LocalWeather]]></name>
+<preferredState ><![CDATA[0]]></preferredState>
+</concept>
+<concept >
+<selected ><![CDATA[true]]></selected>
+<influence ><![CDATA[]]></influence>
+<id ><![CDATA[9]]></id>
+<name ><![CDATA[MidTrophicFishes]]></name>
+<preferredState ><![CDATA[0]]></preferredState>
+</concept>
+<concept >
+<selected ><![CDATA[true]]></selected>
+<influence ><![CDATA[]]></influence>
+<id ><![CDATA[10]]></id>
+<name ><![CDATA[Nutrients]]></name>
+<preferredState ><![CDATA[0]]></preferredState>
+</concept>
+<concept >
+<selected ><![CDATA[true]]></selected>
+<influence ><![CDATA[]]></influence>
+<id ><![CDATA[11]]></id>
+<name ><![CDATA[OA]]></name>
+<preferredState ><![CDATA[0]]></preferredState>
+</concept>
+<concept >
+<selected ><![CDATA[true]]></selected>
+<influence ><![CDATA[]]></influence>
+<id ><![CDATA[12]]></id>
+<name ><![CDATA[PhytoplanktonBacteria]]></name>
+<preferredState ><![CDATA[0]]></preferredState>
+</concept>
+<concept >
+<selected ><![CDATA[true]]></selected>
+<influence ><![CDATA[]]></influence>
+<id ><![CDATA[13]]></id>
+<name ><![CDATA[RecreationalFishing]]></name>
+<preferredState ><![CDATA[0]]></preferredState>
+</concept>
+<concept >
+<selected ><![CDATA[true]]></selected>
+<influence ><![CDATA[]]></influence>
+<id ><![CDATA[14]]></id>
+<name ><![CDATA[RockyReef]]></name>
+<preferredState ><![CDATA[0]]></preferredState>
+</concept>
+<concept >
+<selected ><![CDATA[true]]></selected>
+<influence ><![CDATA[]]></influence>
+<id ><![CDATA[15]]></id>
+<name ><![CDATA[SeaOtters]]></name>
+<preferredState ><![CDATA[0]]></preferredState>
+</concept>
+<concept >
+<selected ><![CDATA[true]]></selected>
+<influence ><![CDATA[]]></influence>
+<id ><![CDATA[16]]></id>
+<name ><![CDATA[Seastars]]></name>
+<preferredState ><![CDATA[0]]></preferredState>
+</concept>
+<concept >
+<selected ><![CDATA[true]]></selected>
+<influence ><![CDATA[]]></influence>
+<id ><![CDATA[17]]></id>
+<name ><![CDATA[SeaSurfaceTemp]]></name>
+<preferredState ><![CDATA[0]]></preferredState>
+</concept>
+<concept >
+<selected ><![CDATA[true]]></selected>
+<influence ><![CDATA[]]></influence>
+<id ><![CDATA[18]]></id>
+<name ><![CDATA[SeaUrchins]]></name>
+<preferredState ><![CDATA[0]]></preferredState>
+</concept>
+<concept >
+<selected ><![CDATA[true]]></selected>
+<influence ><![CDATA[]]></influence>
+<id ><![CDATA[19]]></id>
+<name ><![CDATA[Sedimentation]]></name>
+<preferredState ><![CDATA[0]]></preferredState>
+</concept>
+<concept >
+<selected ><![CDATA[true]]></selected>
+<influence ><![CDATA[]]></influence>
+<id ><![CDATA[20]]></id>
+<name ><![CDATA[SourceWaters]]></name>
+<preferredState ><![CDATA[0]]></preferredState>
+</concept>
+<concept >
+<selected ><![CDATA[true]]></selected>
+<influence ><![CDATA[]]></influence>
+<id ><![CDATA[21]]></id>
+<name ><![CDATA[Upwelling]]></name>
+<preferredState ><![CDATA[0]]></preferredState>
+</concept>
+<concept >
+<selected ><![CDATA[true]]></selected>
+<influence ><![CDATA[]]></influence>
+<id ><![CDATA[22]]></id>
+<name ><![CDATA[YoYFishes]]></name>
+<preferredState ><![CDATA[0]]></preferredState>
+</concept>
+<concept >
+<selected ><![CDATA[true]]></selected>
+<influence ><![CDATA[]]></influence>
+<id ><![CDATA[23]]></id>
+<name ><![CDATA[Zooplankton]]></name>
+<preferredState ><![CDATA[0]]></preferredState>
+</concept>
+</concepts>
+</scenario>
+</scenarios>
+</mentalmodeler>

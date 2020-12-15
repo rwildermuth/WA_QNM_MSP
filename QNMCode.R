@@ -82,13 +82,13 @@ library(QPress)
 #--------------------------------------------------------------------------
 
 # 1. Load in the Seafloor Habitat dia to make an edge list
-edges <- model.dia("Seafloor.dia")
+edges <- model.dia("KelpForest_WorkshopEdit.dia")
 edges <- enforce.limitation(edges)
 ## Examine unweighted adjacency matrix
 A <- adjacency.matrix(edges, labels=TRUE)
 
 # Take a peak at the adjacency matrix
-A
+View(A)
 
 #Visualize A using:
 adjacency.image(edges) # RW: this doesn't match -> labling on left inverted
@@ -120,3 +120,96 @@ plot(hclust(imp_dist), main="Perturbation similarity (Euclidean distance)", hang
 imp_dist<- dist(imptable)
 plot(hclust(imp_dist), main="Node similarity across perturbations (Euclidean distance)", hang=-1)
 
+#-------------------------------------------------------------
+# Save output to compare scenarios
+# 5. Build the function that will sample link weights 
+
+s <- community.sampler(edges)
+
+# 6.  Do we have validation criteria? Do we want to filter out matricies that are able to reproduce a known behavior?
+#     For now, we don't, so leave perturb and monitor as NA. This builds a function 
+
+press.val <- press.validate(edges,
+                            perturb=NA,
+                            monitor=NA )
+
+# 7. Build the function to define the perturbation scenario
+
+enso <- press.impact(edges, perturb=c("ENSO"=1))
+acidification  <- press.impact(edges, perturb=c("OA"=1))
+#warming  <- press.impact(edges, perturb=c("SeafloorTemperature"=1))
+warming  <- press.impact(edges, perturb=c("SeaSurfaceTemp"=1))
+#incFishing  <- press.impact(edges, perturb=c("Fishing"=1))
+#decFishing  <- press.impact(edges, perturb=c("Fishing"=-1))
+incFishing  <- press.impact(edges, perturb=c("RecreationalFishing"=1))
+decFishing  <- press.impact(edges, perturb=c("RecreationalFishing"=-1))
+
+# 8. Simulate response of the community! 
+
+n.sims <- 10000  #should take about 10 seconds, if longer, there might have build a digraph that nearly always leads to an unstable community. If so, consider including more negative feedbacks, or setting the A diagonal to -1 
+resENSO <- resOA <- resWarm <- resIncFish <- resDecFish <- 0
+i <- 0
+
+while(i < n.sims) {
+  
+  ## Randomly choose edges to retain
+  #z <- s$select(runif(1))
+  ## Sample community matrix
+  W <- s$community()
+  
+  ## Check press condition and stability
+  if(!(press.val(W) && stable.community(W))) next
+  
+  ## Monitor impact post press
+  impENSO <- enso(W)
+  impOA <- acidification(W)
+  impWarm <- warming(W)
+  impIncFish <- incFishing(W)
+  impDecFish <- decFishing(W)
+  
+  resENSO <- resENSO + outer(signum(impENSO, epsilon=1.0E-5),-1:1,'==')  #signum classifies the predicted response to -1, 0, 1. Values less abs(epsilon) are rounded down to zero. 
+  resOA <- resOA + outer(signum(impOA, epsilon=1.0E-5),-1:1,'==')
+  resWarm <- resWarm + outer(signum(impWarm, epsilon=1.0E-5),-1:1,'==')
+  resIncFish <- resIncFish + outer(signum(impIncFish, epsilon=1.0E-5),-1:1,'==')
+  resDecFish <- resDecFish + outer(signum(impDecFish, epsilon=1.0E-5),-1:1,'==')
+  
+  i <- i+1
+}
+
+results <- rbind(resENSO, resOA, resWarm, resIncFish, resDecFish)
+## Print results
+rownames(results) <- paste(levels(edges$From), 
+                           rep(c("ENSO", "OA", "Warm", "IncFish", "DecFish"), each = length(levels(edges$From))),
+                           sep = ".")
+colnames(results) <- c('-','0','+')
+
+## Plot outcomes
+library(RColorBrewer)
+# pal <- brewer.pal(n=5,"RdBu")[4:2]
+# opar <- par(mar=c(5,10,1,1)+0.1)
+# prop <- results/rowSums(results)
+# r <- colSums(t(prop)*(-1:1))
+# barplot(t(prop[order(r),]),
+#         horiz=T,cex.names=0.8,cex.axis=0.8,las=2,
+#         border=F,col=pal,xlab="Proportion")
+# par(opar)
+
+pal <- rev(brewer.pal(n=11,"RdBu"))
+prop <- results/rowSums(results)
+# if all outcomes unaffected (0) make prop of +'s = 0.5
+prop[prop[,'0']==1, '+'] <- 0.5
+cutMap <- cut(prop[,'+'], breaks = 11)
+par(mar=c(1.1,7,16,1.1))
+plot(x = rep(1:length(levels(edges$From)), 5), y = c(rep(5, length(levels(edges$From))), 
+                                                     rep(4,length(levels(edges$From))), 
+                                                     rep(3, length(levels(edges$From))), 
+                                                     rep(2,length(levels(edges$From))), 
+                                                     rep(1,length(levels(edges$From)))), 
+     pch = 22, bg = pal[as.numeric(cutMap)], cex = 5, xlab = "", ylab = "", xaxt='n', yaxt='n',
+     ylim = c(0.5, 5.5), bty = 'n')
+axis(side = 2,
+     at = 5:1, las = 2,
+     labels =c("ENSO", "OA", "Warm", "IncFish", "DecFish"))
+#axis(3, at=1:length(levels(edges$From)), labels=FALSE, tck=0)
+text(x=1:length(levels(edges$From)), y= 5.5,# par("usr")[2]+0.5,
+     labels=levels(edges$From), srt=-45, pos = 2, offset = -0.25, xpd=NA, cex = 1.5)
