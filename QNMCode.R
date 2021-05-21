@@ -23,6 +23,8 @@
 #devtools::install_github("SWotherspoon/QPress", build_vignettes = TRUE)
 #Load the library
 library(QPress)
+library(waffle)
+library(tidyverse)
 
 ###########################################################
 # Take a look at the Blue King Crab QNM. 
@@ -202,6 +204,7 @@ library(RColorBrewer)
 # par(opar)
 
 pal <- rev(brewer.pal(n=11,"RdBu"))
+pal[6] <- "grey"
 prop <- results/rowSums(results)
 # if all outcomes unaffected (0) make prop of +'s = 0.5
 prop[prop[,'0']==1, '+'] <- 0.5
@@ -230,13 +233,13 @@ text(x = rep(1:length(levels(edges$From)), 6), y = c(rep(6, length(levels(edges$
                                                      rep(2,length(levels(edges$From))), 
                                                      rep(1,length(levels(edges$From)))),
      labels = ifelse(prop[,'-'] > 0.5, yes = "-", no = ""), cex = 2)
-text(x = rep(1:length(levels(edges$From)), 6), y = c(rep(6, length(levels(edges$From))),
-                                                     rep(5, length(levels(edges$From))), 
-                                                     rep(4,length(levels(edges$From))), 
-                                                     rep(3, length(levels(edges$From))), 
-                                                     rep(2,length(levels(edges$From))), 
-                                                     rep(1,length(levels(edges$From)))),
-     labels = ifelse(prop[,'0'] == 1, yes = "X", no = ""), cex = 2)
+# text(x = rep(1:length(levels(edges$From)), 6), y = c(rep(6, length(levels(edges$From))),
+#                                                      rep(5, length(levels(edges$From))), 
+#                                                      rep(4,length(levels(edges$From))), 
+#                                                      rep(3, length(levels(edges$From))), 
+#                                                      rep(2,length(levels(edges$From))), 
+#                                                      rep(1,length(levels(edges$From)))),
+#      labels = ifelse(prop[,'0'] == 1, yes = "X", no = ""), cex = 2)
 text(x = rep(1:length(levels(edges$From)), 6), y = c(rep(6, length(levels(edges$From))),
                                                      rep(5, length(levels(edges$From))), 
                                                      rep(4,length(levels(edges$From))), 
@@ -244,3 +247,13 @@ text(x = rep(1:length(levels(edges$From)), 6), y = c(rep(6, length(levels(edges$
                                                      rep(2,length(levels(edges$From))), 
                                                      rep(1,length(levels(edges$From)))),
      labels = ifelse(prop[,'+'] > 0.5, yes = "+", no = ""), cex = 2)
+
+# Plot output as waffle plots
+
+pal2 <- rev(brewer.pal(n=3,"RdBu"))
+prop <- results/rowSums(results)
+
+waffle(parts = results[1,], rows = 100, size = 0.02, colors = pal2)
+waffle(parts = results["RockHabitat.ENSO",], rows = 100, size = 0.025, colors = pal2)
+
+
