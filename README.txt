@@ -57,18 +57,4 @@ Time Line:
 August 1, 2020 – May 31, 2021
 
 
-Budget:
-Total=$40,000
-Salary: 
-R. Wildermuth, 7 months: = $20,721 total 
-•	5 months at $2,442/month (graduate student stipend) = $10,988
-•	2 months at $4,867/month (post-doc stipend) = $9,733
-
-G. Fay, 0.04 months at $9,302/month salary = $388
-
-Fringe and Indirect:
-Program Continuation Fee, $250/semester = $250
-Student, post-doc, and faculty fringe: $3,891
-Indirect costs (59%): $14,750
-
-C. Harvey contributions will be in-kind (est. 24 hours, $89/hr=$2136)
+[Video Presentation](https://drive.google.com/file/d/15H8mS3h1hacboRLlS6YyYTakw_SOAKBv/view?usp=sharing)
